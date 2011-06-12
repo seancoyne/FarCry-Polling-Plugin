@@ -3,6 +3,6 @@ A simple FarCry CMS polling solution.
 Sean Coyne
 http://n42designs.com/
 
-To install, copy these files to /farcry/plugins/spcPlugin and add "spcPlugin" to your "this.plugins" setting in your FarCry constructor.
+To install, copy these files to /farcry/plugins/spcPoll and add "spcPoll" to your "this.plugins" setting in your FarCry constructor.
 
 Tested on FarCry 6.0, should work on 6.1 as well.
