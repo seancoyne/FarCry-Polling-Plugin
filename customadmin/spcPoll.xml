@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webtop>
+	<section label="Poll" id="spcPollSection" sequence="9999">
+		<subsection id="spcPollSubsection" sequence="1" label="Poll">
+			<menu mergeType="merge" id="spcPollMenu" label="Poll">
+				<menuitem mergeType="merge" id="spcPoll" sequence="1" label="Polls" link="/admin/customadmin.cfm?module=customlists/spcPoll.cfm&amp;plugin=spcPoll" relatedtype="spcPoll" />
+			</menu>
+		</subsection>
+	</section>
+</webtop>
