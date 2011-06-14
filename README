@@ -3,6 +3,8 @@ A simple FarCry CMS polling solution.
 Sean Coyne
 http://n42designs.com/
 
-To install, copy these files to /farcry/plugins/spcPoll and add "spcPoll" to your "this.plugins" setting in your FarCry constructor.
+A simple poll solution for the FarCry Content Management System.  Provides a custom type and a rule that will allow you to create a simple, one question poll and display it in any container.
 
-Tested on FarCry 6.0, should work on 6.1 as well.
+Packaged as a FarCry plugin for easy deployment to any existing FarCry site.  Compatible with FarCry 6.0 and 6.1.
+
+To install, copy these files to /farcry/plugins/spcPoll and add "spcPoll" to your "this.plugins" setting in your FarCry constructor.  Deploy the content types in the COAPI manager and restart the application.  You can now create a question, assign answers to it, and deploy that question using the "Poll: Display Poll" rule.
